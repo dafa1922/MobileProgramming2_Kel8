@@ -12,7 +12,7 @@ Future<void> main() async {
     'EEEE, d MMMM y',
     'id_ID',
   ).format(DateTime.now());
-  print(tanggalHariIni); // Menampilkan hasil ke Terminal / Debug Console
+  debugPrint(tanggalHariIni); // Menampilkan hasil ke Terminal / Debug Console
 
   runApp(const MyApp());
 }
